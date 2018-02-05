@@ -1,0 +1,24 @@
+
+#index-navbar {
+	background-color: #ffd86f;
+}
+
+#index-navbar-title {
+	color: #333 ;
+	font-weight: 350;
+}
+
+#index-navbar-locationTitle {
+	color: #333;
+	font-size: 14px;
+}
+
+#index-header-location-icon {
+	font-size: 20px;
+	display: inline;
+}
+
+#index-navbar-locationMoreIcon {
+	font-size: 16px;
+	margin-left: -15px;
+}

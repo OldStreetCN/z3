@@ -1,0 +1,42 @@
+{
+	"BOC": {
+		"name": "中国银行",
+		"background-color": "#dba7a9",
+		"color": "#fff"
+	},
+	"CCB": {
+		"name": "中国建设银行",
+		"background-color": "#1167ac",
+		"color": "#fff"
+	},
+	"ICBC": {
+		"name": "中国工商银行",
+		"background-color": "#c6091a",
+		"color": "#fff"
+	},
+	"ABC": {
+		"name": "中国农业银行",
+		"background-color": "#66bdaf",
+		"color": "#fff"
+	},
+	"BCM": {
+		"name": "中国交通银行",
+		"background-color": "#063d77",
+		"color": "#fff"
+	},
+	"CMB": {
+		"name": "招商银行",
+		"background-color": "#e18895",
+		"color": "#fff"
+	},
+	"PSBC": {
+		"name": "中国邮政储蓄银行",
+		"background-color": "#339170",
+		"color": "#fff"
+	},
+	"ELSEB": {
+		"name": "不支持的银行",
+		"background-color": "#e5e5e5",
+		"color": "#666"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"keys": [
+		{
+			"keyName": "高德地图api",
+			"platform": "ios",
+			"key": "6ebbfaa72f138162e16562cabc01565a"
+		}, {
+			"keyName": "高德地图api",
+			"platform": "android",
+			"key": "8ec1aa2ae5613651ef06bdc63fc3613b"
+		}
+	]
+}

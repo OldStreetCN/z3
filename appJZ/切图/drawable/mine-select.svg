@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>shape_slice</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFE38A" offset="0%"></stop>
+            <stop stop-color="#FFA74A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M12.4783539,24.9493808 L8.31888399,16.8822351 C8.31888399,16.8822351 3.8155218,18.8967173 2.25316897,20.1089296 C0.690656614,21.321142 0,25 0,25 L25,25 C25,25 24.5420425,21.5354726 22.703777,20.1089296 C21.1411317,18.8967173 16.6376897,16.8822351 16.6376897,16.8822351 L12.4783539,24.9493808 Z M12.4783539,18.4956881 L11.0917487,20.1088959 L11.7851178,21.7223796 L9.70532966,24.949347 L15.2512706,24.949347 L13.1715622,21.7223796 L13.8647186,20.1088959 L12.4783539,18.4956881 Z M12.6271256,0 C18.7332619,0 18.7439204,5.38769934 18.7439204,8.41709571 C18.7439204,11.4465228 16.2973035,17.0755166 12.6271256,17.0820751 C8.95710724,17.0889678 6.51030422,11.4465227 6.51030422,8.41709568 C6.51030422,5.38769931 6.52106905,0 12.6271256,0 Z" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+    </g>
+</svg>

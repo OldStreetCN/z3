@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>3订单_slice</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3订单" transform="translate(-0.000000, 0.000000)" fill-rule="nonzero">
+            <path d="M0,25 C0,38.8 11.2,50 25,50 C38.8,50 50,38.8 50,25 C50,11.2 38.8,0 25,0 C11.2,0 0,11.2 0,25 Z" id="XMLID_20_" fill="#E9E8FF"></path>
+            <g id="XMLID_3_" transform="translate(12.500000, 13.750000)">
+                <polygon id="XMLID_13_" fill="#C6C9FF" points="9.65 3.725 19.875 0.025 21.875 3.725"></polygon>
+                <polygon id="XMLID_12_" fill="#C6C9FF" points="5.975 3.725 10.225 0.025 11.925 2.3 9.1 3.725"></polygon>
+                <path d="M2.275,22.475 C1.15,22.475 0,21.35 0,20.2 L0,6 C0,4.875 1.125,3.725 2.275,3.725 L21.3,3.725 C22.425,3.725 23.575,4.85 23.575,6 L23.575,19.925 C23.575,21.05 22.45,22.2 21.3,22.2 L2.275,22.475 Z" id="XMLID_9_" fill="#8880FE"></path>
+                <path d="M22.725,15.95 L20.175,15.95 C19.05,15.95 17.9,15.1 17.9,13.675 L17.9,12.825 C17.9,11.7 19.025,10.55 20.175,10.55 L22.725,10.55 C23.85,10.55 25,11.4 25,12.825 L25,13.95 C25,15.075 24.15,15.95 22.725,15.95 Z" id="XMLID_6_" fill="#C6C9FF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
