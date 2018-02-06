@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>订单详情</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<style>
+			body{background-color: #fff;}
+			.mui-bar-nav{background-color: #FFD980!important;}
+			.mui-content{height:665px;width: 100%;background-color: #fff;overflow-y: auto;}
+			.mui-table-view li{height: 61px;}
+			.u-orderfs{font-size: 16px;color: #333;}
+			.u-orderje{float: right;font-size: 14px;color: #f77878;}
+			.u-orderbh{font-size: 14px;color: #999;}
+			.u-orderzf{float: right; font-size: 14px;color: #999;}
+			.courseDiv{height: 83px;width: 100%;border-bottom: 1px solid #e3e3e3;}
+			.coursename{font-size: 16px;color: #333;margin-left: 15px;display: inline-block;margin-top: 10px;}
+			.classtime{margin-right: 5px; float: right;font-size: 14px;color: #666;display: inline-block;margin-top: 10px;}
+			.coursedata{display: inline-block;margin-top: 5px;font-size: 14px;color: #999; height: 40px;width: 350px;margin-left: 15px;}
+			.sktimeDiv{height: 130px;}
+			.sktime{font-size: 14px;color: #999;display: block;margin-left: 16px;margin-top: 5px;}
+			.msg-hz{font-size: 14px;color: #999;margin-left: 16px;}
+			.orderpayDiv{height:44px;width: 100%;background-color: darkgrey;position:fixed;top:623px;}
+			.closeorderbtn{float: left; height: 100%;width: 50%;color: #999; background-color: #f2f2f2;color: #333;font-size: 14px;text-align: center;line-height: 44px;}
+			.okorderbtn{float: right; height: 100%;width: 50%; color: #fff; background-color: #F77878;font-size: 14px;text-align: center;line-height: 44px;}
+		</style>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">订单详情</h1>
+		</header>
+		<div class="mui-content">
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell mui-media">
+					<span class="u-orderfs">在线订单</span>
+					<span class="u-orderje">金额:4800.00元</span><br />
+					<span class="u-orderbh">编号：D18010100000002  2017/01/01 18:32</span>
+					<span class="u-orderzf">已完成</span>
+				</li>
+			</ul>
+			<div class="courseDiv">
+				<span class="coursename">超级无敌教育</span>
+				<span class="classtime">开班时间：2018/01/03 19:00</span><br />
+				<span class="coursedata">JavaScript少儿基础教程</span>
+			</div>
+			<div class="courseDiv sktimeDiv">
+				<span class="coursename">上课时间</span><br />
+				<span class="sktime">周一: 8:30`9:30 / 10:30`11:30</span>
+				<span class="sktime">周一: 8:30`9:30 / 10:30`11:30</span>
+				<span class="sktime">周一: 8:30`9:30 / 10:30`11:30</span>
+			</div>
+			<div class="courseDiv">
+				<span class="coursename">个人信息</span><br />
+				<span class="msg-hz">孩子:</span><span class="msg-hz">李思思</span><span class="msg-hz">电话暂无</span><br />
+				<span class="msg-hz">家长:</span><span class="msg-hz">李江涛</span><span class="msg-hz">18270613392</span>
+			</div>
+			<div class="orderpayDiv">
+				<div class="closeorderbtn">关闭订单</div>
+				<div class="okorderbtn">支付订单</div>
+			</div>
+		</div>
+	</body>
+
+</html>
