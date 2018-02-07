@@ -13,10 +13,21 @@
 		<style>
 			body{background-color: #fff;}
 			.mui-bar-nav{background-color: #FFD980!important;}
+			.mui-content{background-color: #fff;}
 			/*在线缴费-无结果*/
-			.m-order-tip1{height: 150px;width: 100%;background-color: #fff;margin-top: 50px;}
+			.m-order-tip1{display: none; height: 150px;width: 100%;background-color: #fff;margin-top: 50px;}
 			.u-nopaytip1{color: #666;font-size: 14px;text-align: center;width: 100%; padding-top:30px;}
 			.u-nopaytip2{color: #666;font-size: 14px;text-align: center;width: 100%; margin-top: 20px;}
+			/*在线缴费-有订单*/
+			.orderDiv{float: left;}
+			.ordertitle{font-size: 14px;color: #666;}
+			.order{font-size: 14px;color: #666;}
+			.coursecounttitle{font-size: 12px;color: #999;}
+			.coursecounttitle *{font-size: 12px;color: #999;}
+			.cjtimetitle{font-size: 12px;color: #999;}
+			.cjtime{font-size: 12px;color: #999;}
+			.price{float: left;margin-top: 10px;margin-left: 20px;color: #F77878;}
+			.nomore{font-size: 12px;color: #999;width: 100%;text-align: center;margin-top: 20px;}
 		</style>
 	</head>
 	<body>
@@ -24,16 +35,31 @@
 		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
 		    <h1 class="mui-title">在线缴费</h1>
 		</header>
-		<div class="m-order-tip1">
-			<div class="u-nopaytip1">未查询到任何等待支付的订单</div>
-			<div class="u-nopaytip2">请下拉刷新后再试</div>
+		<div class="mui-content">
+			<!--未查询到订单情况-->
+			<div class="m-order-tip1">
+				<div class="u-nopaytip1">未查询到任何等待支付的订单</div>
+				<div class="u-nopaytip2">请下拉刷新后再试</div>
+			</div>
+			<!--查询到订单情况-->
+			<div class="m-order-tip2">
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell">
+						<div class="orderDiv">
+							<span class="ordertitle">订单</span>
+							<span class="order">D18 0110 0000 0001</span>
+							<span class="coursecounttitle">含<span class="coursecount">四</span>门课程</span><br />
+							<span class="cjtimetitle">创建时间</span>
+							<span class="cjtime">2018/01/01 19:52</span>
+						</div>
+						<div class="price">
+							10080.00
+						</div>
+					</li>
+				</ul>
+				<div class="nomore">暂无更多,如果显示的结果不是您需要的，请下拉刷新。</div>
+			</div>
 		</div>
-		<ul class="mui-table-view">
-			 <li class="mui-table-view-cell">
-			 	
-			 </li>
-		</ul>
-
 	</body>
 
 </html>
